@@ -1,3 +1,5 @@
+/// <reference types="jest" />
+
 import { TaskStatus, TodoList, Todo } from '../todo/TodoList';
 
 describe('TodoList', () => {
