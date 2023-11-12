@@ -1,3 +1,5 @@
+/// <reference types="jest" />
+
 import { TaskStatus, TodoList, Todo } from '../todo/TodoList';
 import { describe, expect, it, beforeEach } from '@jest/globals';
 
