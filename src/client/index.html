@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+  </head>
+  <link rel="stylesheet" href="index.css" />
+
+  <body>
+    <div id="container"></div>
+    <header>
+      <h1 style="color: greenyellow">
+        &lt;/<span style="color: white">todoList</span>&gt;
+      </h1>
+    </header>
+    <section>
+      <div id="input-bar-display">
+        <label>
+          <input id="input" type="text" placeholder="Añade una tarea" />
+        </label>
+        <button id="save-button">Guardar</button>
+      </div>
+      <ul id="list">
+        <p id="initial-message" style="text-align: center">
+          No hay tareas en la lista
+        </p>
+      </ul>
+    </section>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

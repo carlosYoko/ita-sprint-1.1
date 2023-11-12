@@ -17,7 +17,9 @@ export async function addTask() {
 
   const newTask = new Todo(generateID(), answers.text, TaskStatus.Pending);
   taskList.addTask(newTask);
+  console.log(' ');
   console.log(colors.green('Tarea añadida!'));
+  console.log(' ');
 }
 
 export async function updateTaskStatus() {
@@ -43,12 +45,16 @@ export async function updateTaskStatus() {
   ]);
 
   if (answer.taskId === 'salir') {
+    console.log(' ');
     console.log(
       colors.yellow('Operación cancelada. No se actualizó ninguna tarea.')
     );
+    console.log(' ');
   } else {
     taskList.updateTaskStatus(answer.taskId);
+    console.log(' ');
     console.log(colors.green('Estado cambiado!'));
+    console.log(' ');
   }
 }
 
@@ -75,12 +81,16 @@ export async function deleteTask() {
   ]);
 
   if (answer.taskId === 'salir') {
+    console.log(' ');
     console.log(
       colors.yellow('Operación cancelada. No se eliminó ninguna tarea.')
     );
+    console.log(' ');
   } else {
     taskList.deleteTask(answer.taskId);
+    console.log(' ');
     console.log(colors.green('Tarea eliminada correctamente!'));
+    console.log(' ');
   }
 }
 
@@ -97,16 +107,22 @@ export async function deleteAllTasks() {
 
   if (answer.options) {
     taskList.deleteAllTasks();
+    console.log(' ');
     console.log(colors.green('Todas las tareas eliminadas!'));
+    console.log(' ');
   } else {
+    console.log(' ');
     console.log(colors.yellow('Operación cancelada!'));
+    console.log(' ');
   }
 }
 
 export async function viewTasks() {
   const tasks = taskList.getTasks();
   const taskListLength = taskList.getTasks().length;
+  console.log(' ');
   console.log(colors.blue(`Lista de tareas [${taskListLength}]:`));
+  console.log(' ');
   tasks.forEach((task) => {
     console.log(
       `- ${task.text} (Estado: ${
@@ -116,6 +132,7 @@ export async function viewTasks() {
       })`
     );
   });
+  console.log(' ');
 }
 
 export function generateID(): string {

@@ -1,0 +1,54 @@
+:root {
+  --text-color-dark: rgba(255, 255, 255, 0.87);
+  --background-color-dark: #242424;
+  --color-scheme: dark;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: var(--background-color-dark);
+  opacity: 0.8;
+  color-scheme: dark;
+}
+
+body[data-theme='dark'] {
+  --color-scheme: dark;
+  color: var(--text-color-dark);
+  background-color: var(--background-color-dark);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#input-bar-display {
+  margin: 8px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 16px;
+  background-color: yellowgreen;
+  border: 2px solid;
+  border-radius: 10px;
+  min-width: 350px;
+  min-height: 50px;
+}
+
+li {
+  display: flex;
+  gap: 8px;
+}
+
+#delete-button {
+  cursor: pointer;
+}
