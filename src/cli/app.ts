@@ -5,7 +5,7 @@ import {
   deleteAllTasks,
   viewTasks,
   header,
-} from './cliFunctions.js';
+} from './cliFunctions';
 import inquirer from 'inquirer';
 import colors from 'colors';
 
