@@ -1,7 +1,7 @@
 # todoList
 
 Aplicacion simple de TodoList desarrollada con la técnica TDD y TypeScript.
-Incluye interfaz CLI, testing y frontend básico en HTML.<br>
+Incluye interfaz CLI, testing y frontend básico en HTML.
 
 ##### Trabajo del Spring 1 de IT-Academy en la especialización de Node.js.
 
@@ -17,13 +17,13 @@ El objetivo de este ejercicio es crear una aplicación de lista de tareas utiliz
 
 - Mostrar la lista de tareas.
 
-⭐ Nivel 1
+⭐ Nivel 1  
 Utiliza pruebas para verificar la funcionalidad de la aplicación.
 
-⭐⭐ Nivel 2
+⭐⭐ Nivel 2  
 Crea una interfaz de línea de comandos (CLI) para verificar la funcionalidad de la aplicación.
 
-⭐⭐⭐ Nivel 3
+⭐⭐⭐ Nivel 3  
 Crea un front-end para verificar la funcionalidad de la aplicación.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
