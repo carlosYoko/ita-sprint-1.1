@@ -2,7 +2,11 @@
 
 Aplicacion simple de TodoList desarrollada con la técnica TDD y TypeScript.
 Incluye interfaz CLI, testing y frontend básico en HTML.<br>
-#####Trabajo del Spring 1 de IT-Academy en la especialización de Node.js.
+
+##### Trabajo del Spring 1 de IT-Academy en la especialización de Node.js.
+
+###### Descripción del ejercicio:
+
 El objetivo de este ejercicio es crear una aplicación de lista de tareas utilizando TypeScript y TDD. La aplicación debe tener las siguientes características:
 
 - Permitir agregar una tarea a la lista.
